@@ -1,10 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-
 
 class Config:
+    load_dotenv()
     SECRET_KEY = 'jwhegfjhwegfjhwe'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///data.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
